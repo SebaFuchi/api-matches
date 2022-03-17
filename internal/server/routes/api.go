@@ -22,5 +22,4 @@ func New() http.Handler {
 
 	//Retornamos la api ya construida
 	return r
-
 }

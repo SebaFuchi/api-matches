@@ -2,7 +2,7 @@ package responseHelper
 
 import (
 	"encoding/json"
-	"tinder_users/pkg/Domain/response"
+	"tinder_matches/pkg/Domain/response"
 )
 
 func ResponseBuilder(status int, message string, data interface{}) ([]byte, error) {
